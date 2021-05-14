@@ -12,11 +12,11 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [x ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [x ] Open the assignment in Canvas and click on the "Set up git" option.
+- [x ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [x ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [x ] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
@@ -81,6 +81,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  React JS is a library used for building user interfaces in JavaScript. It is intuitive and designed to optimize the coding needed to be done by a developer because it is declarative, efficient and based on components.
 1. Describe component state.
+  The state of a component is an object that determines how a components renders to the DOM and behaves in JavaScript. Changing or manipulating the state of a component allows you to create dynamic, fluid and interactive web pages.
 1. Describe props.
+  Props are arguments that are passed into React components as HTML attributes. Props can also be used to pass data from one component to another as a parameter.
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  Side effects in React components are anything that affects something outside of the scope of the function being executed. An example of this would be fetching data from an API (just like the Star Wars characters in this sprint challenge). Side effects have two categories, ones that need cleanup and those that do not need cleanup.
